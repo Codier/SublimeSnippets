@@ -16,5 +16,5 @@
 })();
 ]]></content>
     <tabTrigger>ngservice</tabTrigger>
-    <scope>text.plain, source.js</scope>
+    <scope>text.plain, source.js, source.ts</scope>
 </snippet>
