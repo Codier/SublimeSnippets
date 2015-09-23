@@ -26,6 +26,6 @@
     });
 })();
 ]]></content>
-    <tabTrigger>ngdirective</tabTrigger>
+    <tabTrigger>n-directive</tabTrigger>
     <scope>text.plain, source.js, source.ts</scope>
 </snippet>

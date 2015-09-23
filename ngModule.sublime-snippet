@@ -7,6 +7,6 @@
   ]);
 })();
 ]]></content>
-    <tabTrigger>ngmodule</tabTrigger>
+    <tabTrigger>n-module</tabTrigger>
     <scope>text.plain, source.js, source.ts</scope>
 </snippet>

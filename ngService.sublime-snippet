@@ -3,18 +3,21 @@
   'use strict';
 
   angular.module('${1:module}')
-    .service('${2:Service}',
+    .factory('${2:Service}',
     /* @ngInject */
     function ${2:Service}(
       ${3:dependencies}
     ) {
-      this.${4:func} = ${4:func};
-      ////////////////
-      function ${4:function}() {
+      return {
+        ${3:name}:${3:name}
+      };
+
+      function ${3:name}() {
+
       }
     });
 })();
 ]]></content>
-    <tabTrigger>ngservice</tabTrigger>
+    <tabTrigger>n-service, n-factory</tabTrigger>
     <scope>text.plain, source.js, source.ts</scope>
 </snippet>
