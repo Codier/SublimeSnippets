@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+(function() {
+  'use strict';
+
+  describe('${1:SomeClass} unit test', function() {
+    beforeEach(module('${2:ModuleName}'));
+
+    var ${3:\$rootScope};
+    beforeEach(inject(
+      function(${4:_\$rootScope_}) {
+        ${3:\$rootScope} = ${4:_\$rootScope_};
+      }
+    ));
+
+    it('should ${6:do something}', function() {
+
+    });
+  });
+})();
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>n-spec</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ts, source.js</scope>
+</snippet>
